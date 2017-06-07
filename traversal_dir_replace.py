@@ -20,6 +20,12 @@
 
 # traversal the given path
 
+def write_log(content):
+    fw = open("E:\\python\\modify_log.txt",'a')
+    fw.write(content)
+    fw.close()
+
+    
 def find_last(string,str):
     last_position=-1
     while True:
@@ -30,34 +36,29 @@ def find_last(string,str):
 
 
 def IsSpace(string):
-    s = ""
     for i in string:
         if i.isspace():
-            continue
-        s += i
-    return s
+            return True
+    return False
             
 def Replace(string):
     import re
-    s = re.findall(r'foreach\s*\(\D+\)', string) # find all strings according to the regex
+    s = re.findall(r'\D+foreach\s*\(\D+\)\D+', string) # find all strings according to the regex
     if s:
-        print(s)
-
-        p = re.split(r'\(', string, 1) #split by '(' and ')', we can get the midddle part of the string
-        p[0] = IsSpace(p[0])
-
-        p[1] = p[1].replace(',', ' :')
+        print("Find:",len(s))
+        print("Original:",s[0])
         
-        final = ""
+        string = string.replace(',', ' :')
+        
+        t = re.findall(r'foreach\s*\(', string)
 
-        for index in range(len(p)):
-            final += p[index]
-
-        final = final.replace('foreach', 'for (')
-        print(final)
-        return final
-    else:
-        return string  
+        if IsSpace(t[0]):
+            string = string.replace('foreach', 'for')
+        else:
+            string = string.replace('foreach', 'for ')
+        print("Modify  :",string)
+        print('~~~~~~~~~~~\n')
+    return string  
 
 def Traversal(path): 
     import os
@@ -69,10 +70,13 @@ def Traversal(path):
         for fname in flist:
             p = os.path.join(path, fname)
             file_absolute_path.append(p)
-    print("Total File:", len(file_absolute_path))      
+            
+    print("Total files:", len(file_absolute_path))
+    print("Record:\n")
+    
     return file_absolute_path
 
-def ReadFile(path):
+def read_file(path):
     import re    
     fo = open(path, 'r', encoding = 'ANSI')
     
@@ -80,7 +84,7 @@ def ReadFile(path):
     fo.close()
     return content
 
-def WriteFile(path,ls):
+def write_file(path,ls):
     fw = open(path, 'w', encoding = 'ANSI')
     fw.writelines(ls)
     fw.close()
@@ -89,8 +93,10 @@ def WriteFile(path,ls):
   #  'E:\\python\\test_dir'
 
 List = []
+modify_file_num = 0
+
 for i in Traversal('E:\\git_code\\CS_Imaging\\2DViewer\\src'):
-    content = ReadFile(i)
+    content = read_file(i)
     
     for line in content:
         l = Replace(line)
@@ -99,10 +105,11 @@ for i in Traversal('E:\\git_code\\CS_Imaging\\2DViewer\\src'):
         List.clear()
         continue
     
-    WriteFile(i, List)
-    List.clear()
-        
+    write_file(i, List)
+    print("File Name:", i)
+    print("-------------------------------------------------------\n")
     
-#print(Traversal('D:\\Python\\test_dir'))
-#print(Replace('foreach(f*, h)'))
+    modify_file_num += 1
+    List.clear()
+print("Modified Files:",modify_file_num)          
 
