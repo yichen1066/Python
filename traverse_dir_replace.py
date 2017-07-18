@@ -21,9 +21,10 @@
 # traversal the given path
 
 def write_log(content):
-    fw = open("E:\\python\\modify_log.txt",'a')
-    fw.write(content)
-    fw.close()
+    #fw = open("E:\\python\\modify_log.txt",'a')
+    with open("E:\\python\\modify_log.txt", 'a') as fw:
+        fw.write(content)
+    #    fw.close()
 
     
 def find_last(string,str):
@@ -35,13 +36,13 @@ def find_last(string,str):
         last_position=position
 
 
-def IsSpace(string):
+def is_space(string):
     for i in string:
         if i.isspace():
             return True
     return False
             
-def Replace(string):
+def replace(string):
     import re
     s = re.findall(r'\D+foreach\s*\(\D+\)\D+', string) # find all strings according to the regex
     if s:
@@ -52,7 +53,7 @@ def Replace(string):
         
         t = re.findall(r'foreach\s*\(', string)
 
-        if IsSpace(t[0]):
+        if is_space(t[0]):
             string = string.replace('foreach', 'for')
         else:
             string = string.replace('foreach', 'for ')
@@ -60,7 +61,7 @@ def Replace(string):
         print('~~~~~~~~~~~\n')
     return string  
 
-def Traversal(path): 
+def traverse_dir(path): 
     import os
 
     file_absolute_path = []
@@ -78,10 +79,11 @@ def Traversal(path):
 
 def read_file(path):
     import re    
-    fo = open(path, 'r', encoding = 'ANSI')
-    
-    content = fo.readlines()
-    fo.close()
+   # fo = open(path, 'r', encoding = 'ANSI')
+    with open(path, 'r', enconding = 'ANSI') as fo:
+        
+        content = fo.readlines()
+   # fo.close()
     return content
 
 def write_file(path,ls):
@@ -95,11 +97,11 @@ def write_file(path,ls):
 List = []
 modify_file_num = 0
 
-for i in Traversal('E:\\git_code\\CS_Imaging\\2DViewer\\src'):
+for i in traverse_dir('E:\\git_code\\CS_Imaging\\2DViewer\\src'):
     content = read_file(i)
     
     for line in content:
-        l = Replace(line)
+        l = replace(line)
         List.append(l)      
     if List == content:
         List.clear()
