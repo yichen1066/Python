@@ -1,0 +1,240 @@
+(1)query patient spent: 0.092009s
+list objects(patient a1 c1) spent: 0.089008s
+list objects(patient h1 k1) spent: 0.544054s
+list objects(patient p1 l1) spent: 0.070007s
+list objects(patient w1 b1) spent: 0.067006s
+list objects(patient y1 h1) spent: 0.076007s
+GetPreseationStateInfo(internal id = 10) spent: 0.006s
+GetPreseationStateInfo(internal id = 39) spent: 0.008s
+GetPreseationStateInfo(internal id = 2) spent: 0.008s
+GetPreseationStateInfo(internal id = 108) spent: 0.007s
+GetPreseationStateInfo(internal id = 118) spent: 0.007s
+
+(2)query patient spent: 0.146014s
+list objects(patient a1 c1) spent: 0.10701s
+list objects(patient h1 k1) spent: 0.273027s
+list objects(patient p1 l1) spent: 0.063006s
+list objects(patient w1 b1) spent: 0.066006s
+list objects(patient y1 h1) spent: 0.077007s
+GetPreseationStateInfo(internal id = 10) spent: 0.009s
+GetPreseationStateInfo(internal id = 39) spent: 0.008s
+GetPreseationStateInfo(internal id = 2) spent: 0.008s
+GetPreseationStateInfo(internal id = 108) spent: 0.008s
+GetPreseationStateInfo(internal id = 118) spent: 0.008s
+
+(3)query patient spent: 0.144014s
+list objects(patient a1 c1) spent: 0.10301s
+list objects(patient h1 k1) spent: 0.252025s
+list objects(patient p1 l1) spent: 0.061006s
+list objects(patient w1 b1) spent: 0.071007s
+list objects(patient y1 h1) spent: 0.072007s
+GetPreseationStateInfo(internal id = 10) spent: 0.008s
+GetPreseationStateInfo(internal id = 39) spent: 0.008s
+GetPreseationStateInfo(internal id = 2) spent: 0.006s
+GetPreseationStateInfo(internal id = 108) spent: 0.007s
+GetPreseationStateInfo(internal id = 118) spent: 0.007s
+
+(4)query patient spent: 0.113011s
+list objects(patient a1 c1) spent: 0.092009s
+list objects(patient h1 k1) spent: 0.233023s
+list objects(patient p1 l1) spent: 0.062006s
+list objects(patient w1 b1) spent: 0.068006s
+list objects(patient y1 h1) spent: 0.069006s
+GetPreseationStateInfo(internal id = 10) spent: 0.007s
+GetPreseationStateInfo(internal id = 39) spent: 0.007s
+GetPreseationStateInfo(internal id = 2) spent: 0.007s
+GetPreseationStateInfo(internal id = 108) spent: 0.007s
+GetPreseationStateInfo(internal id = 118) spent: 0.007s
+
+(5)query patient spent: 0.092009s
+list objects(patient a1 c1) spent: 0.10001s
+list objects(patient h1 k1) spent: 0.197019s
+list objects(patient p1 l1) spent: 0.063006s
+list objects(patient w1 b1) spent: 0.069006s
+list objects(patient y1 h1) spent: 0.073007s
+GetPreseationStateInfo(internal id = 10) spent: 0.009s
+GetPreseationStateInfo(internal id = 39) spent: 0.007s
+GetPreseationStateInfo(internal id = 2) spent: 0.007s
+GetPreseationStateInfo(internal id = 108) spent: 0.007s
+GetPreseationStateInfo(internal id = 118) spent: 0.008s
+
+(6)query patient spent: 0.095009s
+list objects(patient a1 c1) spent: 0.090009s
+list objects(patient h1 k1) spent: 0.214021s
+list objects(patient p1 l1) spent: 0.062006s
+list objects(patient w1 b1) spent: 0.065006s
+list objects(patient y1 h1) spent: 0.070007s
+GetPreseationStateInfo(internal id = 10) spent: 0.009s
+GetPreseationStateInfo(internal id = 39) spent: 0.007s
+GetPreseationStateInfo(internal id = 2) spent: 0.006s
+GetPreseationStateInfo(internal id = 108) spent: 0.008s
+GetPreseationStateInfo(internal id = 118) spent: 0.008s
+
+(7)query patient spent: 0.092009s
+list objects(patient a1 c1) spent: 0.094009s
+list objects(patient h1 k1) spent: 0.262026s
+list objects(patient p1 l1) spent: 0.061006s
+list objects(patient w1 b1) spent: 0.063006s
+list objects(patient y1 h1) spent: 0.073007s
+GetPreseationStateInfo(internal id = 10) spent: 0.008s
+GetPreseationStateInfo(internal id = 39) spent: 0.006s
+GetPreseationStateInfo(internal id = 2) spent: 0.008s
+GetPreseationStateInfo(internal id = 108) spent: 0.007s
+GetPreseationStateInfo(internal id = 118) spent: 0.007s
+
+(8)query patient spent: 0.154015s
+list objects(patient a1 c1) spent: 0.085008s
+list objects(patient h1 k1) spent: 0.221022s
+list objects(patient p1 l1) spent: 0.057005s
+list objects(patient w1 b1) spent: 0.058005s
+list objects(patient y1 h1) spent: 0.074007s
+GetPreseationStateInfo(internal id = 10) spent: 0.018001s
+GetPreseationStateInfo(internal id = 39) spent: 0.009s
+GetPreseationStateInfo(internal id = 2) spent: 0.007s
+GetPreseationStateInfo(internal id = 108) spent: 0.009s
+GetPreseationStateInfo(internal id = 118) spent: 0.008s
+
+(9)query patient spent: 0.135013s
+list objects(patient a1 c1) spent: 0.094009s
+list objects(patient h1 k1) spent: 0.20902s
+list objects(patient p1 l1) spent: 0.055005s
+list objects(patient w1 b1) spent: 0.061006s
+list objects(patient y1 h1) spent: 0.064006s
+GetPreseationStateInfo(internal id = 10) spent: 0.008s
+GetPreseationStateInfo(internal id = 39) spent: 0.007s
+GetPreseationStateInfo(internal id = 2) spent: 0.008s
+GetPreseationStateInfo(internal id = 108) spent: 0.007s
+GetPreseationStateInfo(internal id = 118) spent: 0.007s
+
+(10)query patient spent: 0.114011s
+list objects(patient a1 c1) spent: 0.086008s
+list objects(patient h1 k1) spent: 0.188018s
+list objects(patient p1 l1) spent: 0.055005s
+list objects(patient w1 b1) spent: 0.071007s
+list objects(patient y1 h1) spent: 0.071007s
+GetPreseationStateInfo(internal id = 10) spent: 0.007s
+GetPreseationStateInfo(internal id = 39) spent: 0.007s
+GetPreseationStateInfo(internal id = 2) spent: 0.008s
+GetPreseationStateInfo(internal id = 108) spent: 0.007s
+GetPreseationStateInfo(internal id = 118) spent: 0.006s
+
+(11)query patient spent: 0.115011s
+list objects(patient a1 c1) spent: 0.080008s
+list objects(patient h1 k1) spent: 0.196019s
+list objects(patient p1 l1) spent: 0.055005s
+list objects(patient w1 b1) spent: 0.061006s
+list objects(patient y1 h1) spent: 0.070007s
+GetPreseationStateInfo(internal id = 10) spent: 0.009s
+GetPreseationStateInfo(internal id = 39) spent: 0.007s
+GetPreseationStateInfo(internal id = 2) spent: 0.007s
+GetPreseationStateInfo(internal id = 108) spent: 0.007s
+GetPreseationStateInfo(internal id = 118) spent: 0.008s
+
+(12)query patient spent: 0.124012s
+list objects(patient a1 c1) spent: 0.10101s
+list objects(patient h1 k1) spent: 0.232023s
+list objects(patient p1 l1) spent: 0.069006s
+list objects(patient w1 b1) spent: 0.075007s
+list objects(patient y1 h1) spent: 0.085008s
+GetPreseationStateInfo(internal id = 10) spent: 0.006s
+GetPreseationStateInfo(internal id = 39) spent: 0.008s
+GetPreseationStateInfo(internal id = 2) spent: 0.006s
+GetPreseationStateInfo(internal id = 108) spent: 0.007s
+GetPreseationStateInfo(internal id = 118) spent: 0.007s
+
+(13)query patient spent: 0.116011s
+list objects(patient a1 c1) spent: 0.091009s
+list objects(patient h1 k1) spent: 0.246024s
+list objects(patient p1 l1) spent: 0.057005s
+list objects(patient w1 b1) spent: 0.063006s
+list objects(patient y1 h1) spent: 0.063006s
+GetPreseationStateInfo(internal id = 10) spent: 0.008s
+GetPreseationStateInfo(internal id = 39) spent: 0.007s
+GetPreseationStateInfo(internal id = 2) spent: 0.006s
+GetPreseationStateInfo(internal id = 108) spent: 0.007s
+GetPreseationStateInfo(internal id = 118) spent: 0.008s
+
+(14)query patient spent: 0.132013s
+list objects(patient a1 c1) spent: 0.079007s
+list objects(patient h1 k1) spent: 0.196019s
+list objects(patient p1 l1) spent: 0.054005s
+list objects(patient w1 b1) spent: 0.060006s
+list objects(patient y1 h1) spent: 0.071007s
+GetPreseationStateInfo(internal id = 10) spent: 0.007s
+GetPreseationStateInfo(internal id = 39) spent: 0.006s
+GetPreseationStateInfo(internal id = 2) spent: 0.007s
+GetPreseationStateInfo(internal id = 108) spent: 0.006s
+GetPreseationStateInfo(internal id = 118) spent: 0.007s
+
+(15)query patient spent: 0.112011s
+list objects(patient a1 c1) spent: 0.083008s
+list objects(patient h1 k1) spent: 0.270027s
+list objects(patient p1 l1) spent: 0.054005s
+list objects(patient w1 b1) spent: 0.060006s
+list objects(patient y1 h1) spent: 0.076007s
+GetPreseationStateInfo(internal id = 10) spent: 0.008s
+GetPreseationStateInfo(internal id = 39) spent: 0.006s
+GetPreseationStateInfo(internal id = 2) spent: 0.006s
+GetPreseationStateInfo(internal id = 108) spent: 0.007s
+GetPreseationStateInfo(internal id = 118) spent: 0.007s
+
+(16)query patient spent: 0.10201s
+list objects(patient a1 c1) spent: 0.088008s
+list objects(patient h1 k1) spent: 0.222022s
+list objects(patient p1 l1) spent: 0.056005s
+list objects(patient w1 b1) spent: 0.051005s
+list objects(patient y1 h1) spent: 0.069006s
+GetPreseationStateInfo(internal id = 10) spent: 0.007s
+GetPreseationStateInfo(internal id = 39) spent: 0.006s
+GetPreseationStateInfo(internal id = 2) spent: 0.007s
+GetPreseationStateInfo(internal id = 108) spent: 0.007s
+GetPreseationStateInfo(internal id = 118) spent: 0.005s
+
+(17)query patient spent: 0.137013s
+list objects(patient a1 c1) spent: 0.112011s
+list objects(patient h1 k1) spent: 0.319031s
+list objects(patient p1 l1) spent: 0.078007s
+list objects(patient w1 b1) spent: 0.081008s
+list objects(patient y1 h1) spent: 0.10201s
+GetPreseationStateInfo(internal id = 10) spent: 0.008s
+GetPreseationStateInfo(internal id = 39) spent: 0.005s
+GetPreseationStateInfo(internal id = 2) spent: 0.006s
+GetPreseationStateInfo(internal id = 108) spent: 0.007s
+GetPreseationStateInfo(internal id = 118) spent: 0.006s
+
+(18)query patient spent: 0.129012s
+list objects(patient a1 c1) spent: 0.093009s
+list objects(patient h1 k1) spent: 0.225022s
+list objects(patient p1 l1) spent: 0.066006s
+list objects(patient w1 b1) spent: 0.067006s
+list objects(patient y1 h1) spent: 0.075007s
+GetPreseationStateInfo(internal id = 10) spent: 0.008s
+GetPreseationStateInfo(internal id = 39) spent: 0.007s
+GetPreseationStateInfo(internal id = 2) spent: 0.008s
+GetPreseationStateInfo(internal id = 108) spent: 0.006s
+GetPreseationStateInfo(internal id = 118) spent: 0.006s
+
+(19)query patient spent: 0.10001s
+list objects(patient a1 c1) spent: 0.10301s
+list objects(patient h1 k1) spent: 0.264026s
+list objects(patient p1 l1) spent: 0.057005s
+list objects(patient w1 b1) spent: 0.065006s
+list objects(patient y1 h1) spent: 0.064006s
+GetPreseationStateInfo(internal id = 10) spent: 0.007s
+GetPreseationStateInfo(internal id = 39) spent: 0.007s
+GetPreseationStateInfo(internal id = 2) spent: 0.006s
+GetPreseationStateInfo(internal id = 108) spent: 0.006s
+GetPreseationStateInfo(internal id = 118) spent: 0.006s
+
+(20)query patient spent: 0.140014s
+list objects(patient a1 c1) spent: 0.095009s
+list objects(patient h1 k1) spent: 0.316031s
+list objects(patient p1 l1) spent: 0.058005s
+list objects(patient w1 b1) spent: 0.060006s
+list objects(patient y1 h1) spent: 0.076007s
+GetPreseationStateInfo(internal id = 10) spent: 0.008s
+GetPreseationStateInfo(internal id = 39) spent: 0.007s
+GetPreseationStateInfo(internal id = 2) spent: 0.006s
+GetPreseationStateInfo(internal id = 108) spent: 0.007s
+GetPreseationStateInfo(internal id = 118) spent: 0.007s
+
